@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperator", "ImageOperator\ImageOperator.csproj", "{96AB84B4-2146-4C87-8CF6-C66233C2FCFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperator.Core", "ImageOperator.Core\ImageOperator.Core.csproj", "{B55617B6-94BA-424E-A3AF-55C25E45C84D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{96AB84B4-2146-4C87-8CF6-C66233C2FCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96AB84B4-2146-4C87-8CF6-C66233C2FCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96AB84B4-2146-4C87-8CF6-C66233C2FCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

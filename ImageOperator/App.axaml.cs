@@ -3,6 +3,7 @@ using System.IO;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using ImageOperator.Core;
 using ImageOperator.ViewModels;
 using ImageOperator.Views;
 using Microsoft.Extensions.Configuration;
@@ -17,6 +18,7 @@ public partial class App : Application
     {
         services.AddSingleton<MainWindow>();
         services.AddSingleton<MainWindowViewModel>();
+        services.AddPluginFramework<IImageOperator>(@".\Plugins\");
     }).Build();
 
     public override void Initialize()
