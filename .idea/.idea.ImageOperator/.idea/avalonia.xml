@@ -3,6 +3,8 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="ImageOperator/App.axaml" value="ImageOperator/ImageOperator.csproj" />
+        <entry key="ImageOperator/Assets/ColorMap.axaml" value="ImageOperator/ImageOperator.csproj" />
         <entry key="ImageOperator/Views/MainWindow.axaml" value="ImageOperator/ImageOperator.csproj" />
       </map>
     </option>
