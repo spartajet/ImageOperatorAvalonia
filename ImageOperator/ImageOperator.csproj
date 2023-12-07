@@ -26,6 +26,8 @@
         <PackageReference Include="DotNet.Bundle" Version="0.9.13" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+        <PackageReference Include="NodeEditorAvalonia" Version="11.0.0" />
+        <PackageReference Include="NodeEditorAvalonia.Mvvm" Version="11.0.0" />
         <PackageReference Include="Weikio.PluginFramework.AspNetCore" Version="1.5.1" />
     </ItemGroup>
 

@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperator", "ImageOpera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperator.Core", "ImageOperator.Core\ImageOperator.Core.csproj", "{B55617B6-94BA-424E-A3AF-55C25E45C84D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOperator.Test", "ImageOperator.Test\ImageOperator.Test.csproj", "{266F49F3-8585-4C1B-8EB2-9089C130C648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{0BA3FD9C-36E4-461D-AF5C-DA42C2D9511A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginDemo", "PluginDemo\PluginDemo.csproj", "{918CFDC9-F936-4DA2-96D1-FF7130797779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,16 @@ Global
 		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55617B6-94BA-424E-A3AF-55C25E45C84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266F49F3-8585-4C1B-8EB2-9089C130C648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266F49F3-8585-4C1B-8EB2-9089C130C648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266F49F3-8585-4C1B-8EB2-9089C130C648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266F49F3-8585-4C1B-8EB2-9089C130C648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918CFDC9-F936-4DA2-96D1-FF7130797779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918CFDC9-F936-4DA2-96D1-FF7130797779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918CFDC9-F936-4DA2-96D1-FF7130797779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918CFDC9-F936-4DA2-96D1-FF7130797779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{918CFDC9-F936-4DA2-96D1-FF7130797779} = {0BA3FD9C-36E4-461D-AF5C-DA42C2D9511A}
 	EndGlobalSection
 EndGlobal
