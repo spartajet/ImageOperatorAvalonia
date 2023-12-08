@@ -1,15 +1,19 @@
 using Avalonia;
 using Avalonia.Controls;
+using ImageOperator.ViewModels;
 
 namespace ImageOperator.Views;
 
 public partial class MainWindow : Window
 {
-    public MainWindow()
+    private MainWindowViewModel model;
+
+    public MainWindow(MainWindowViewModel model)
     {
         this.InitializeComponent();
-        
+        this.model = model;
+        this.DataContext = model;
     }
-    
-    
+
+
 }

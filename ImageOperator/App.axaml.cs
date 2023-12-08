@@ -44,6 +44,9 @@ public partial class App : Application
                 singleView.MainView = mainWindow;
                 break;
         }
+#if DEBUG
+        this.AttachDevTools();
+#endif
 
         base.OnFrameworkInitializationCompleted();
     }
