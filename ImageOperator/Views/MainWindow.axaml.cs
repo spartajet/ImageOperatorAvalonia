@@ -13,6 +13,13 @@ public partial class MainWindow : Window
         this.InitializeComponent();
         this.model = model;
         this.DataContext = model;
+        this.Loaded += (_, _) =>
+        {
+
+#if MACOS
+        this.WindowState = WindowState.FullScreen;
+#endif
+        };
     }
 
 

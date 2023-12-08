@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using ImageOperator.Core;
@@ -56,4 +57,5 @@ public partial class App : Application
     {
         return host.Services.GetService<T>();
     }
+    
 }

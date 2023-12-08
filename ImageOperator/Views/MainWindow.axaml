@@ -8,7 +8,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ImageOperator">
-    <Grid Margin="3" RowDefinitions="Auto,*,Auto">
+    <Grid Margin="3" RowDefinitions="Auto,Auto,*,Auto">
         <Menu Grid.Row="0">
             <MenuItem Header="_File">
                 <MenuItem x:Name="FileOpenLayout" Header="_Open layout..." />
@@ -18,7 +18,7 @@
                 <MenuItem x:Name="FileCloseLayout" Header="_Close layout" />
             </MenuItem>
         </Menu>
-        <DockControl x:Name="Dock" Grid.Row="1" InitializeLayout="True" InitializeFactory="True">
+        <DockControl x:Name="Dock" Grid.Row="2" InitializeLayout="True" InitializeFactory="True">
             <DockControl.Factory>
                 <Factory />
             </DockControl.Factory>
